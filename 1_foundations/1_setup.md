@@ -5,7 +5,7 @@ https://github.com/ed-donner/agents/
 
 Setting up an environment for AI development can be tricky, which is why we will be aided by two important tools: 
 
-- **Cursor IDE**: A fork of VSC that is designed for AI development ([download](https://www.cursor.com/)).
+- **Cursor IDE** (Optional): A fork of VSC that is designed for AI development ([download](https://www.cursor.com/)).
 - **UV**: A package manager, such as pip or anaconda, but tailored for AI development.
 
 #### Windows Setup
@@ -17,11 +17,11 @@ There are 4 common gotchas to developing on Windows to be aware of:
 
 - ***Permissions***:  Please take a look at this [tutorial](https://chatgpt.com/share/67b0ae58-d1a8-8012-82ca-74762b0408b0) on permissions on Windows. **<font color='green'><span>&#10003;</span></font>**
 - ***Anti-virus, Firewall, VPN***: These can interfere with installations and network access; try temporarily disabling them as needed. **<font color='green'><span>&#10003;</span></font>**
-- If you've not worked with Data Science packages on your computer before, you'll need to install ***Microsoft Build Tools***. [Here](https://chatgpt.com/share/67b0b762-327c-8012-b809-b4ec3b9e7be0) are instructions. A student also mentioned that [these](https://github.com/bycloudai/InstallVSBuildToolsWindows) instructions might be helpful for people on Windows 11.
-- ***The evil Windows 260 character limit to filenames*** - [here](https://chatgpt.com/share/67b0afb9-1b60-8012-a9f7-f968a5a910c7) is a full explanation and fix! You'll need to restart after making the change.
+- If you've not worked with Data Science packages on your computer before, you'll need to install ***Microsoft Build Tools***. [Here](https://chatgpt.com/share/67b0b762-327c-8012-b809-b4ec3b9e7be0) are instructions. A student also mentioned that [these](https://github.com/bycloudai/InstallVSBuildToolsWindows) instructions might be helpful for people on Windows 11. **<font color='green'><span>&#10003;</span></font>**
+- ***The evil Windows 260 character limit to filenames*** - [here](https://chatgpt.com/share/67b0afb9-1b60-8012-a9f7-f968a5a910c7) is a full explanation and fix! You'll need to restart after making the change. **<font color='green'><span>&#10003;</span></font>**
 
 
-#### Materials Setup
+#### Course Materials Setup
 
 - git clone https://github.com/ed-donner/agents.git
 
@@ -71,11 +71,11 @@ then type `exit` to exit PowerShell.
 
 - Get your Gemini API Key from [here](https://ai.google.dev/gemini-api/docs), which should take you [here](https://aistudio.google.com/u/1/apikey).
 
-- Once you have the API key, create a .evn file in root. 
+- Once you have the API key, create a .evn file in root and add it as an environment variable `GEMINI_API_KEY=<your_api_key>`.
 
 #### Setting up with Ollama
 
-- Check the official [guides](https://github.com/ed-donner/agents/tree/main/guides) 
+*(Obs: Check the official [guides](https://github.com/ed-donner/agents/tree/main/guides))*
 
 - Download Ollama from [here](https://ollama.com/download/windows)
 

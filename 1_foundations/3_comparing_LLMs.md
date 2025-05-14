@@ -49,13 +49,5 @@ Most of these involve a paid API, with varying costs across each company. Models
 
 - ***Ollama*** - Ollama is a tool that allows you to run LLMs ***locally*** on your machine trough optimized C++ code. It is designed to be easy to use and provides a simple interface for running LLMs. It supports a variety of LLMs, including Llama2, Mistral, and others. 
 
- 
-
 
 The [Vellum Leaderboard](https://www.vellum.ai/llm-leaderboard) gives a comparison of costs and performance of different LLMs.
-
-## APIs
-
-
-## LLM Providers
-
