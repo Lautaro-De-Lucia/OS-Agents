@@ -77,5 +77,25 @@ then type `exit` to exit PowerShell.
 
 - Check the official [guides](https://github.com/ed-donner/agents/tree/main/guides) 
 
+- Download Ollama from [here](https://ollama.com/download/windows)
+
+- Check the different models at the [library](https://ollama.com/library) and install the one you want with `ollama pull <model_name>`.
+
+- Bear in mind that without a GPU, you will only be able to run lightweight ('tiny' or 'mini') models.
+
+#### Setting up with Huggingface
+
+- You'd need to create a huggingface account and get a Huggingface Token (make sure it has write permissions). 
+
+![alt text](image-9.png)
+
+- Copy the token to the .env file at root.
+
+- Search for a good text generation model that has enabled the Inference API (which means it runs on Huggingface's servers and will allow you some free usage).
+
+![alt text](image-11.png)
+![alt text](image-12.png)
+
+
 
 #### Setting up with OpenAI API Key
