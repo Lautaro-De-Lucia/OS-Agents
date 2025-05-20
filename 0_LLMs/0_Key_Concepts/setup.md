@@ -16,7 +16,7 @@ There are 4 common gotchas to developing on Windows to be aware of:
 
 #### Install UV  
 
-- Instructions may be found on the official documentation here [here](https://docs.astral.sh/uv/getting-started/installation/). On windows, open PowerShell as an administrator and type
+- Instructions may be found on the official documentation [here](https://docs.astral.sh/uv/getting-started/installation/). On windows, open PowerShell as an administrator and type
 
 ```powershell
 

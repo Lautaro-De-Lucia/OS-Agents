@@ -2,6 +2,13 @@
 
 ![alt text](image.png)
 
-## Specific Benchmarks 
+## Huggingface Leaderboards
 
-![alt text](image-1.png)
+HuggingFace openLLM leaderboard is a great resource to compare the performance of different LLMs. It provides a comprehensive overview of various models, their architectures, and their performance on different benchmarks.
+
+<center>
+
+![alt text](image-2.png)
+![alt text](image-3.png)
+
+</center>
